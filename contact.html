@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical World-contact-us </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/4c5ffcb269.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id = "navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1> Contact us </h1>
+    </section>
+
+<!------Contact us --->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54888.47204108412!2d76.19175645316916!3d30.703511402096527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910102a8317bea3%3A0xcce932b1a3667c8b!2sKhanna%2C%20Punjab!5e0!3m2!1sen!2sin!4v1646132946592!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us"> 
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-home"></i>
+                <span>
+                    <h5>XYZ Road , Abc Building , 10th Floor</h5>
+                    <p>Khanna , Punjab , India </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91 99141-00111 </h5>
+                    <p>Monday to Friday , 9AM to 5PM </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>test123@ss.com </h5>
+                    <p>Email us Your query </p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder = "Enter your name" required >
+                <input type="email" name="email" placeholder = "Enter email id" required >
+                <input type="text" name="subject" placeholder = "Enter your topic" required >
+                <textarea rows="7" name="message" placeholder="Enter your message" required></textarea>
+                <button type="submit" class="btn1 red-btn">Submit</button>
+
+            </form>
+
+        </div> 
+    </div>
+</section>
+
+<!-----Footer----->
+<section class="footer"> 
+    <h4>About us </h4>
+    <p> Hlo Myself Dhruv who made this website. I hope u all liked it.<br>If any 
+    problem post an email regarding ur problem at <b> test123@ss.com </b></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> made with DJANGO </p>
+</section>
+
+<!------Java script for menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
+
+
+</body>
+</html

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical World-course-page </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/4c5ffcb269.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id = "navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1> Our Courses </h1>
+    </section>
+
+<!----Course---->
+<section class="course">
+    <h1>COURSES WE OFFER</h1>
+    <p> PYTHON , JAVA , ORACLE , PHP , C++ , HTML , DJANGO </p>
+
+    <div class="row">
+        <div class="corse-col">
+            <h3> Intermediate </h3>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit asperiores sapiente impedit 
+                magnam veritatis sed, earum iusto equi quae quaerat minima, laboriosam voluptates lauda
+                ntium fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit </p>
+        </div>
+    
+        <div class="corse-col">
+            <h3> Degree </h3>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit asperiores sapiente impedit 
+            magnam veritatis sed, earum iusto sequi quae quaerat minima, laboriosam voluptates lauda
+            ntium fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit </p>
+        </div>
+        <div class="corse-col">
+            <h3> Post Graduation </h3>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit asperiores sapiente impedit 
+            magnam veritatis sed, earum iusto sequi quae quaerat minima, laboriosam voluptates lauda
+            ntium fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit </p>
+        </div>
+    </div>
+
+
+</section>
+<!-----Facilities----->
+<section class="facilities">
+    <h1> Facilities available here are : </h1>
+    <p> HIFI science labs , canteen , auditoriums , canference rooms , High tech gadgets in every class 
+        for better understanding and hostel for boys and girls . 
+    </p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/classroom.png">
+            <h3> Smart classrooms </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/libarary.png">
+            <h3> Library </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/lab.png">
+            <h3> Science Labs </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+    </div>
+</section>
+
+
+<!-----Footer----->
+<section class="footer"> 
+    <h4>About us </h4>
+    <p> Hlo Myself Dhruv who made this website. I hope u all liked it.<br>If any 
+    problem post an email regarding ur problem at <b> test123@ss.com </b></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p> made with DJANGO </p>
+</section>
+
+<!------Java script for menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
+
+
+</body>
+</html

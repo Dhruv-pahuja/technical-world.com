@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical World-Blog-page </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/4c5ffcb269.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id = "navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1> Our Online courses for 2022-2023 </h1>
+    </section>
+<!------ Blog page content ------>
+
+<section class="blog-content"> 
+    <div class="row">
+        <div class="blog-left">
+            <img src="sds/certificate.jpg">
+            <h2>Our Online courses for 2022-2023</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi totam dolorum nobis
+                itaque saepe nisi placeat perspiciatis. Illo quidem autem labore velit! Pariatur ipsam, 
+                eligendi sint nostrum deserunt cupiditate totam, ex enim, impedit eius corrupti 
+                ecessitatibus architecto maxime amet. Quasi quia veritatis, fuga delectus aliquid
+                mquam quam error doloribus non!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequuntur. 
+               Dolore aliquid dolorum quibusdam qui voluptas, doloremque fuga earum eos, impedit
+               ipsam officia mollitia quasi quisquam! Architecto excepturi cupiditate neque earum 
+               cumque culpa perferendis iure quas illo inventore iusto, qui temporibus. Quisquam adipisci
+               eaque aliquid! Illo, repudiandae excepturi ullam eius amet dolorum mollitia ad eos. Quasi
+               dignissimos ducimus vitae repudiandae accusantium excepturi aspernatur enim fugit quidem v
+               oluptate dolor ea, architecto et? Debitis amet fugit eaque a quasi quia nisi quam, sequi 
+               harum perspiciatis nemo ut corrupti repellat deserunt incidunt? Dolores cupiditate sed vel 
+               amet voluptate consectetur recusandae numquam officia cumque.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, laboriosam ut voluptates 
+               tenetur cum autem totam similique nisi dolorum quod optio, eos ipsam adipisci, debitis ducimus 
+               eum repudiandae. Laudantium, vel excepturi dignissimos unde accusantium incidunt ut architecto 
+               deserunt dolores. Sunt, quo deserunt facere laborum debitis ullam impedit porro, ratione cum 
+               commodi nulla? Tenetur, minus perferendis id corporis quo odio nulla nostrum illo distinctio 
+               reprehenderit consequatur veritatis doloribus non nisi. Mollitia reprehenderit perferendis 
+               accusantium temporibus assumenda minus inventore, sint sit, aut porro nemo, sequi ea numquam!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, accusamus quia harum officiis 
+                praesentium id aperiam explicabo, ratione incidunt minus laborum omnis totam molestiae commodi 
+                provident soluta, eius quaerat eligendi nihil ab ea? Reprehenderit, sunt! Lorem ipsum dolor sit 
+                amet consectetur adipisicing elit. Modi, laboriosam amet sunt deleniti illum expedita.</p>
+
+
+
+                 <div class="comment-box">
+                     <h3>Leave a Comment </h3>  
+                     <form class="comment-form">
+                         <input type="text" placeholder="Enter Name">
+                         <input type="email" placeholder="Enter email">
+                         <textarea rows="5" placeholder="Your Comment">
+                         </textarea>
+                         <button type="submit" class="btn1 red-btn"> Post Comment </button>
+                    </form>
+                 </div>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories </h3>
+            <div>
+                <span>Business Analytics </span>
+                <span> 28 </span>
+            </div>
+            <div>
+                <span>Data Science </span>
+                <span> 16 </span>
+            </div>
+            <div>
+                <span>Machine learning (ML) </span>
+                <span> 14 </span>
+            </div>
+            <div>
+                <span>Natural Learning Process (NLP) </span>
+                <span> 25 </span>
+            </div>
+            <div>
+                <span>Artificial Intelligence (AI) </span>
+                <span> 32 </span>
+            </div>
+            <div>
+                <span>Robotics </span>
+                <span> 18 </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-----Footer----->
+<section class="footer"> 
+    <h4>About us </h4>
+    <p> Hlo Myself Dhruv who made this website. I hope u all liked it.<br>If any 
+    problem post an email regarding ur problem at <b> test123@ss.com </b></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p> made with DJANGO </p>
+</section>
+
+<!------Java script for menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
+
+
+</body>
+</html

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical World-About-us </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/4c5ffcb269.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"></a>
+            <div class="nav-links" id = "navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <h1> About us </h1>
+    </section>
+
+<!----about us content---->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Our University is The Biggest   University in the World. </h1>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam consequuntur corporis ex
+                iusto possimus quasi cum sit fuga ratione, aliquam quibusdam quos sapiente quas, ad eos 
+                qui accusantium excepturi molestias adipisci autem debitis, eveniet deserunt suscipit.
+                Officia, blanditiis provident. Ad repellat aperiam reiciendis culpa dolorem dicta
+                voluptate in laboriosam enim.</p>
+                <a href=""class="btn1 red-btn">EXPLORE </a>
+        </div>
+        <div class="about-col">
+            <img src="sds/about.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!-----Footer----->
+<section class="footer"> 
+    <h4>About us </h4>
+    <p> Hlo Myself Dhruv who made this website. I hope u all liked it.<br>If any 
+    problem post an email regarding ur problem at <b> test123@ss.com </b></p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p> made with DJANGO </p>
+</section>
+
+<!------Java script for menu ------>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+</script>
+
+
+</body>
+</html
